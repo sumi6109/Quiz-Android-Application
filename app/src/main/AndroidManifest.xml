@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sumi6109.project_final" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Quiz_Fun"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".level1"
+            android:label="@string/title_activity_level1" >
+        </activity>
+        <activity
+            android:name=".level2"
+            android:label="@string/title_activity_level2" >
+        </activity>
+        <activity
+            android:name=".level3"
+            android:label="@string/title_activity_level3" >
+        </activity>
+        <activity
+            android:name=".level4"
+            android:label="@string/title_activity_level4" >
+        </activity>
+        <activity
+            android:name=".level5"
+            android:label="@string/title_activity_level5" >
+        </activity>
+        <activity
+            android:name=".level6"
+            android:label="@string/title_activity_level6" >
+        </activity>
+        <activity
+            android:name=".level7"
+            android:label="@string/title_activity_level7" >
+        </activity>
+        <activity
+            android:name=".level8"
+            android:label="@string/title_activity_level8" >
+        </activity>
+        <activity
+            android:name=".level9"
+            android:label="@string/title_activity_level9" >
+        </activity>
+        <activity
+            android:name=".level10"
+            android:label="@string/title_activity_level10" >
+        </activity>
+        <activity
+            android:name=".status"
+            android:label="@string/title_activity_status" >
+        </activity>
+    </application>
+
+</manifest>
